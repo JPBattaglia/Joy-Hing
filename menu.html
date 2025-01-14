@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html class="menu-bg">
+
+<head>
+    <meta property="og:title" content="Batt Bros" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="300" />
+    <meta property="og:image" content="https://i.ibb.co/9vCBVTJ/Logo-Original.png" />
+    <meta property="og:image:secure_url" content="https://i.ibb.co/9vCBVTJ/Logo-Original.png" />
+    <meta name="keywords" content="Joy Hing, Vietnamese, Chinatown, Restaurant">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JOY HING - Menu</title>
+    <meta name="description" content="Traditional Vietnamese Dining in SF FiDi/Chinatown">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" type="image/png" href="MTLogo.png">
+    <link href="https://fonts.googleapis.com/css?family=Federant|Akronim|Kaushan+Script|Fugaz+One|Righteous|Orbitron|Kanit|Quintessential" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body id="animated-example" class="animated fadeOut">
+
+    <script>
+        window.addEventListener("beforeunload", function() {
+            document.body.classList.add("animate-out");
+        });
+    </script>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#9747;</a>
+        <a href="index.html">Home</a>
+        <a style="text-decoration: underline" href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <span style="float:right;margin-top: 5px;cursor:pointer" onclick="openNav()"><div ><img data-aos="fade-up" data-aos-duration="3000" class="navicon" src="MenuLeft1.png"></div></span>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "175px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+    <nav data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a style="border-bottom: 5px double white;" href="menu.html">MENU</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <div id="logo">
+
+        <img data-aos="flip-right" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="top-bottom" id="logomt" src="JHLogo.png">
+        <br>
+        <p data-aos="flip-right" data-aos-duration="2000" data-aos-delay="500" data-aos-anchor-placement="top-bottom"></p>
+
+    </div>
+
+    <h1 style="color:red; text-shadow: 2px 1px 0 white, -2px -1px 0 white, 2px -1px 0 white, -2px 1px 0 white,1px 1px 0 white;" data-aos="zoom-in-up" data-aos-delay="700" data-aos-duration="800" data-aos-anchor-placement="top-bottom">Menus</h1>
+
+        
+        <div id="mobilemenu">
+            <img src=Special.png>
+            <img src=HongKong.png>
+            <img src=SeafoodRice.png>
+            <img src=FunNoodle.png>
+            <img src=VegBev.png>
+        </div>
+
+     <footer>
+
+        <p>
+            <a id="sociallink" href="https://www.facebook.com/MangiaTuttiRistorante/"> <img src="FaceBook.png"></a>
+            
+            &copy; Joy Hing BBQ Noodlle House
+            
+            <a id="sociallink" href="https://www.instagram.com/mangiatutti.sf/"><img src="Instagram.png"></a><br>
+            
+            <a href="https://menu-made.com/"><img id="menumade" src="MENU.png"></a>
+        
+        </p>
+
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
