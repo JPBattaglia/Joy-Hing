@@ -454,6 +454,10 @@ img {
     transition: .5s;
 }
 
+#menumade{
+    filter:drop-shadow(0px 0px 2px white);
+}
+
 #form{
     margin-top: -30px;
 }
@@ -508,7 +512,7 @@ img {
     
     #logo img{
         height: 75px;
-        margin-left: -200px;
+        margin-left: -260px;
         background: lime;
         padding: 5px;
         border-radius: 50px;
@@ -553,7 +557,7 @@ img {
     }
     
     #intro h1{
-        font-size: 35px;
+        font-size: 32px;
         margin: -90px auto;
         max-width: 75%;
     }
@@ -1105,7 +1109,7 @@ img {
     }
     
     #logo{
-        margin-top: -40px;
+        margin-top: -65px;
         margin-left: 10px;
         font-style: italic;
         font-weight: bolder;
@@ -1344,6 +1348,10 @@ img {
     
     h1{
         font-size: 45px;
+    }
+    
+    #logo img{
+        margin-top: 20px;
     }
     
     #intro img{
