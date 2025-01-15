@@ -206,12 +206,13 @@ h2{
     border-bottom: 6px double #0c0;
     width: 120px;
     margin: 20px auto;
-    font-size: 28px;
-    font-family: 'federant', serif;
+    font-size: 30px;
+    font-family: 'Kaushan Script', serif;
     font-weight: bolder;
-    color: #a00;
+    color: #fff;
     text-shadow:
-       0px 0px 1px white, -0px 0px 1px white, 0px -0px 1px white, -0px -0px 1px white;
+       1px 1px 1px red, -1px 1px 1px red, 1px -1px 1px red, -1px -1px 1px red;
+    letter-spacing: 2px;
 }
 
 h3{
