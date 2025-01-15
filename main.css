@@ -114,6 +114,7 @@ body{
         -2px 8px 10px black;
     }
 
+
 .menus  {
     max-width: 850px;
     border-radius: 30px;
@@ -576,8 +577,7 @@ img {
     }
     
     #mobilemenu{
-        max-width:850px;
-        margin: auto;
+        margin: 50px auto;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -697,7 +697,7 @@ img {
     }
     
     #fname{
-        margin-top: 100px;
+        margin-top: 50px;
     }
 
     /* Add a background color and some padding around the form */
@@ -889,7 +889,10 @@ img {
         padding-top: 15px;
         width: 55px;
     }
-
+    
+    #menus{
+        margin-top: 30px;
+    }
     
     h2{
         font-size: 24px;
@@ -1202,19 +1205,27 @@ img {
     }
     
     #mobilemenu img{
-        width: 90%;
+        width: 75%;
         border: 10px double white;
         border-radius: 30px;
         margin-bottom: 50px;
     }
     
     #mobilemenu{
-        width:100%;
+        width: 100%;
         margin: auto;
         margin-top: 100px;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    
+    #menus{
+        margin-top: 20px;
+    }
+    
+    #contactus{
+        margin: 50px auto -50px;
     }
     
     textarea, input{
