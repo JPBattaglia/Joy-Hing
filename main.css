@@ -29,7 +29,7 @@ html{
 }
 
 .animated {
-        background-color: #168c3a;
+        background-color: darkgreen;
         background-position: left top;
         margin-bottom:30px;
         -webkit-animation-duration: 3s;animation-duration: 3s;
@@ -203,13 +203,15 @@ h1{
 }
 
 h2{
-    text-decoration: underline;
+    border-bottom: 6px double #0c0;
+    width: 120px;
+    margin: 20px auto;
     font-size: 28px;
     font-family: 'federant', serif;
     font-weight: bolder;
-    color: red;
+    color: #a00;
     text-shadow:
-       1px 1px 0 white, -1px 1px 0 white, 1px -1px 0 white, -1px -1px 0 white;
+       0px 0px 1px white, -0px 0px 1px white, 0px -0px 1px white, -0px -0px 1px white;
 }
 
 h3{
@@ -524,8 +526,15 @@ img {
         margin: -100px auto;
     }
     
+    #clock{
+        width: 60px;
+        height: 60px;
+        border: .5px solid #fff;
+        border-radius: 50px;
+    }
+    
     #hours{
-        margin-top: 30px;
+        margin-top: 50px;
         max-width: 50%;
         margin: auto;
     }
@@ -916,6 +925,14 @@ img {
         margin: 0px 5px;
     }
     
+    #clock{
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        border: .5px solid #fff;
+        border-radius: 50px;
+    }
+    
     #hours{
         margin-top: -10px;
     }
@@ -934,6 +951,7 @@ img {
     
     #reservations h2{
         margin: 15px;
+        margin: auto;
     }
     
     #reservations h3{
@@ -941,23 +959,24 @@ img {
     }
     
     #location h2{
-        margin: 10px;
+        margin: 10px auto;
     }
     
     #location h3{
-        margin: 0px;
+        margin: 0 0 25px;
     }
     
     #location img{
         width: 45px;
         filter:drop-shadow(0px 0px 2px black);
+        margin-top: 10px;
     }
     
     #number{
         font-size: 25px;
         padding-top: 25px;
         width: 250px; 
-        text-shadow: 1px 1px 1px lime;
+        text-shadow: 1px 2px 1px red;
     }
     
     select{
@@ -1138,6 +1157,13 @@ img {
         display:flex;
         max-width:1000px;
         margin: -285px auto;
+    }
+    
+    #clock{
+        width: 50px;
+        height: 50px;
+        border: .5px solid #fff;
+        border-radius: 50px;
     }
     
     #hours{
