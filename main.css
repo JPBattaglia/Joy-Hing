@@ -724,9 +724,16 @@ img {
     }
 
     #form {
+        background: url(BambooBorder.png) 50% 80% no-repeat;
+        background-size: 100% 95%;
         padding: 20px 0px 40px;
         text-align: center;
         width: 100%;
+    }
+    
+    #form img{
+        width: 100%;
+        height: 100%;
     }
     
     .input_container {
@@ -796,7 +803,7 @@ img {
     nav{
         display: flex;
         background: black;
-        height: 65px;
+        height: 60px;
         margin-top: -15px;
         width: 100%;
         margin-bottom: 0;
@@ -873,7 +880,7 @@ img {
     
     #intro img{
         margin: auto;
-        max-width: 100%;
+        max-width: 150%;
         height: 500px;
         border-bottom: 2px solid #800;
     }
@@ -1296,7 +1303,7 @@ img {
     }
     
     #contactus{
-        margin: 50px auto -50px;
+        margin: 0px auto -50px;
     }
     
     textarea, input{
@@ -1394,14 +1401,14 @@ img {
     .container{
         background: url(Vines.png);
         filter: drop-shadow(4px 4px 2px #990);
-        background-size:100% 100%;
-        background-repeat: no-repeat;
         width: 950px;
         max-width: 100%;
         margin: auto;
     }
 
     #form {
+        background: url(BambooBorder.png) 50% 80% no-repeat;
+        background-size: 100% 95%;
         padding:20px 0px 40px;
         text-align: center;
     }
