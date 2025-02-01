@@ -763,7 +763,7 @@ img {
 /*=======================================*/
 
 @media (max-width: 600px){
-        .navicon, #happy, #reservation{
+        .navicon, #happy, #reservations h2, #reservation{
         display: none;
     }
     
@@ -819,7 +819,7 @@ img {
     
     #calltoaction{
         float: inline-end;
-        margin: 25px 30% ;
+        margin: 45px 30% ;
         text-align: center;
         color:#fff;
         padding: 15px 14px;
@@ -854,7 +854,7 @@ img {
     
     #intro h1{
         font-size: 25px;
-        margin: 0px auto 0px;
+        margin: -25px auto 0px;
         max-width: 100%;
         text-shadow: -2px 1px 1px white, 2px 1px 1px white, -2px -1px 1px white, 2px -1px 1px white;
     }
@@ -988,7 +988,7 @@ img {
     }
     
     #location h3{
-        margin: 0 0 25px;
+        margin: 0 0 10px;
     }
     
     #location img{
@@ -998,8 +998,8 @@ img {
     }
     
     #number{
-        font-size: 25px;
-        padding-top: 25px;
+        font-size: 22px;
+        padding-top: -5px;
         width: 250px; 
         text-shadow: 1px 2px 1px red;
         
@@ -1137,7 +1137,7 @@ img {
     }
     
     nav li{
-        font-size: 18px;
+        font-size: 20px;
         text-align: center;
         padding-right: 20px;
         justify-content: center;
