@@ -558,7 +558,7 @@ img {
     
     #sociallink img{
         width: 40px;
-        margin: 0px 20px;
+        margin: 0px 30px -15px;
     }
     
     #intro{
@@ -1179,7 +1179,7 @@ img {
     
     #sociallink img{
         width: 50px;
-        margin: 0px 50px;
+        margin: 0px 50px -15px;
     }
     
     #logo{
@@ -1417,6 +1417,7 @@ img {
         margin-top: 350px;
         text-align: center;
         color: #800;
+        width: 100%;
     }
     
     footer p{
