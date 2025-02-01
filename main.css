@@ -250,7 +250,7 @@ p{
     z-index: 1;
     top: 0;
     right: 0;
-    background: linear-gradient(to right, darkgreen, #168c3a, #21b415, #168c3a, darkgreen);
+    background: url(bamboo-green-bamboo.jpg);
     background-repeat: repeat;
     background-size: 100% 103%;
     overflow-x: hidden;
@@ -289,7 +289,7 @@ p{
 
 .sidenav .closebtn {
     margin: 0px;
-    padding: 10px 25px 28px 22px;
+    padding: 10px 45px 28px 22px;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -483,6 +483,10 @@ img {
         width: 40px;
         height: 30px;
         margin: 0px 20px 0px 0px;
+    }
+
+    .sidenav a {
+        padding-top: 25px;
     }
     
     h1{
