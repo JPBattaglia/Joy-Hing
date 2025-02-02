@@ -1261,6 +1261,15 @@ img {
         margin-top: -80px;
     }
     
+    #joy{
+        color: white;
+        text-shadow:
+       2px 1px 0 red, -2px 1px 0 red, 2px -1px 0 red, -2px -1px 0 red;
+        background: #060;
+        padding: 10px 40px 15px;
+        border-radius: 100px;
+    }
+    
     p{
         font-size: 22px;
         width:375px;
