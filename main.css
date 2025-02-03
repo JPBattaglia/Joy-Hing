@@ -768,6 +768,15 @@ img {
     .menulinks h2{
         width: 100%;
     }
+
+    #joy{
+        text-shadow: 1px 1px 1px red;
+        color: rgb(255, 255, 255);
+        background: darkgreen;
+        padding: 5px 25px 10px;
+        border-radius: 100px;
+        font-size: 28px;
+    }
 }
 
 /*=======================================*/
@@ -807,7 +816,7 @@ img {
         margin-top: -15px;
         width: 100%;
         margin-bottom: 0;
-        border: 2px solid red;
+        border: 1px solid red;
         border-radius: 150px;
     }
     
@@ -839,7 +848,7 @@ img {
         border-radius: 230px;
         font-family: 'federant';
         text-decoration: none;
-        border: .5px solid #600;
+        border: 1px solid orangered;
         box-shadow: 1px 1px 8px #000;
         font-size: 18px;
     }
@@ -868,10 +877,6 @@ img {
         margin: -25px auto 0px;
         max-width: 100%;
         text-shadow: -1px 1px 0px white, 1px 1px 0px white, -1px -1px 0px white, 1px -1px 0px white;
-    }
-    
-    #intro span{
-        font-size: 32px;
     }
     
     span #Pho{
@@ -957,8 +962,8 @@ img {
     }
     
     #sociallink img{
-        width: 20px;
-        margin: 0px 5px;
+        width: 50px;
+        margin: 0 15px -20px;
     }
     
     #clock{
@@ -1157,6 +1162,23 @@ img {
     
     nav ul{
         width: 100%;
+    }
+
+    .chinese{
+        font-size: 32px;
+    }
+
+    #joy {
+        text-shadow: none;
+        color: rgb(255, 255, 255);
+        background: darkgreen;
+        padding: 7px 20px 10px;
+        border-radius: 50px;
+        font-size: 22px;
+    }
+
+    #copywrite{
+        text-shadow: .5px 0px 0 white, -.5px 0px 0 white, .5px -.5px 0 white, .5px .5px 0 white;
     }
 }
 
