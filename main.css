@@ -474,6 +474,10 @@ img {
     nav, #calltoaction, #rotate, #happy{
         display: none;
     }
+
+    .animated{
+        background: url(PalmLeaves.jpg);
+    }
     
     .overlay{
         background-size: 33%;
@@ -788,7 +792,7 @@ img {
     }
     
     .animated{
-        background: #000;
+        background: url(PalmLeaves.jpg);
     }
     
     .overlay{
@@ -949,7 +953,7 @@ img {
     
     h3{
         font-size: 20px;
-        color: lime;
+        color: rgb(255, 255, 255);
     }
     
     p{
@@ -1188,6 +1192,10 @@ img {
 @media (min-width: 850px){
     .sidenav, .navicon, #calltoaction, #rotate, .navicon1, #happy{
         display: none;
+    }
+
+    .animated{
+        background: url(PalmLeaves.jpg);
     }
     
     .overlay{
