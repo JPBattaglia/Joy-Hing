@@ -1285,10 +1285,9 @@ img {
     
     #joy{
         color: white;
-        text-shadow:
-       2px 1px 0 red, -2px 1px 0 red, 2px -1px 0 red, -2px -1px 0 red;
+        text-shadow: none;
         background: #060;
-        padding: 10px 40px 15px;
+        padding: 6px 40px 15px;
         border-radius: 100px;
     }
     
