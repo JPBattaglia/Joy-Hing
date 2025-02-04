@@ -842,61 +842,64 @@ img {
     }
     
     #calltoaction{
-        font-family: 'Rubik Doodle Shadow';
+        font-family: 'Quintessential';
         text-shadow: .5px .5px 1px #fff;
         float: inline-end;
         margin: 45px 30% ;
         text-align: center;
         color:#fff;
-        padding: 10px 20px;
+        padding: 5px 20px;
         background: repeating-linear-gradient(to top, #400, #a00, red 100%);
         width: 125px;
         border-radius: 230px;
         text-decoration: none;
         border: 2px solid orangered;
         box-shadow: 1px 1px 10px #000, 1px -1px 10px #000;
-        font-size: 20px;
+        font-size: 23px;
+        font-weight: bolder;
     }
 
+
+
     
-    .glow-on-hover:before {
-        content: '';
-        background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-        position: absolute;
-        top: -2px;
-        left:-2px;
-        background-size: 400%;
-        z-index: -1;
-        filter: blur(5px);
-        width: calc(100% + 4px);
-        height: calc(100% + 4px);
-        animation: glowing 20s linear infinite;
-        opacity: 0;
-        border-radius: 30px;
-    }
+        .glow-on-hover:before {
+            content: '';
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+            position: absolute;
+            top: -2px;
+            left:-2px;
+            background-size: 400%;
+            z-index: -1;
+            filter: blur(5px);
+            width: calc(100% + 4px);
+            height: calc(100% + 4px);
+            animation: glowing 30s linear infinite;
+            opacity: 0;
+            border-radius: 30px;
+        }
     
-    .glow-on-hover:before {
-        opacity: 1;
-    }
-    
-    .glow-on-hover:after {
-        z-index: -1;
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background: repeating-linear-gradient(to top, #400, #a00, red 100%);
-        left: 0;
-        top: 0;
-        border-radius: 30px;
-    }
-    
-    @keyframes glowing {
-        0% { background-position: 0 0; }
-        50% { background-position: 400% 0; }
-        100% { background-position: 0 0; }
-    }
-    
+        .glow-on-hover:before {
+            opacity: 1;
+        }
+        
+        .glow-on-hover:after {
+            z-index: -1;
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(to top, #400, #a00, red 100%);
+            left: 0;
+            top: 0;
+            border-radius: 30px;
+        }
+        
+        @keyframes glowing {
+            0% { background-position: 0 0; }
+            50% { background-position: 400% 0; }
+            100% { background-position: 0 0; }
+        }
+        
     
     
     
