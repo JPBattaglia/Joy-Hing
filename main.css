@@ -458,12 +458,31 @@ img {
     transition: .5s;
 }
 
+#sociallink img:hover{
+    transition: 1.5s;
+    filter: drop-shadow(.5px .5px 3px hsl(37, 100%, 50%));
+    rotate: 360deg;
+}
+
+#sociallink img{
+    transition: 1s;
+}
+
 #menumade{
-    filter:drop-shadow(0px 0px 2px white);
+    margin-top: 20px;
+    filter:drop-shadow(0px 0px 2px rgb(0, 0, 0));
 }
 
 #form{
     margin-top: -30px;
+}
+
+footer{
+    background: rgb(5, 70, 59);
+    padding: 40px 20px 20px;
+    margin: -25px;
+    width: 100%;
+    border-top: 3px solid rgb(213, 0, 0);
 }
 
 
@@ -563,6 +582,14 @@ img {
     #sociallink img{
         width: 40px;
         margin: 0px 30px -15px;
+        transition: 1s;
+    }
+
+    #sociallink img:hover{
+        width: 42px;
+        transition: 2s;
+        filter: drop-shadow(.5px .5px 3px hsl(37, 100%, 50%));
+        rotate: 360deg;
     }
     
     #intro{
@@ -728,8 +755,6 @@ img {
     }
 
     #form {
-        background: url(BambooBorder.png) 50% 80% no-repeat;
-        background-size: 100% 95%;
         padding: 20px 0px 40px;
         text-align: center;
         width: 100%;
@@ -840,25 +865,38 @@ img {
         margin: -100px 0 0 50%;
         width: 50px;
     }
+
+    #action{
+        display: flex;
+        width: 100%;
+    }
     
     #calltoaction{
         font-family: 'Quintessential';
         text-shadow: .5px .5px 1px #fff;
         float: inline-end;
-        margin: 45px 30% ;
+        margin: 45px auto;
         text-align: center;
         color:#fff;
-        padding: 5px 20px;
+        padding: 2px 15px;
         background: repeating-linear-gradient(to top, #400, #a00, red 100%);
         width: 125px;
         border-radius: 230px;
         text-decoration: none;
         border: 2px solid orangered;
         box-shadow: 1px 1px 10px #000, 1px -1px 10px #000;
-        font-size: 23px;
+        font-size: 22px;
         font-weight: bolder;
+        transition: 1s;
     }
 
+    #calltoaction:hover{
+        text-shadow: .5px .5px 5px #ffffff;
+        font-size: 24px;
+        transition: 1s;
+        color: #00ffd5;
+        padding: 5px 20px;
+    }
 
 
     
@@ -871,9 +909,9 @@ img {
             background-size: 400%;
             z-index: -1;
             filter: blur(5px);
-            width: calc(100% + 4px);
-            height: calc(100% + 4px);
-            animation: glowing 30s linear infinite;
+            width: calc(100% + 5px);
+            height: calc(100% + 5px);
+            animation: glowing 20s linear infinite;
             opacity: 0;
             border-radius: 30px;
         }
@@ -921,6 +959,7 @@ img {
         flex-direction: column;
         align-items: center;
         margin: auto;
+        margin-bottom: 50px;
     }
     
     
@@ -961,6 +1000,7 @@ img {
         background: lime;
         padding: 3px;
     }
+
     
     #logo p{
         display: none;
@@ -1014,8 +1054,9 @@ img {
     }
     
     #sociallink img{
-        width: 50px;
-        margin: 0 15px -20px;
+        width: 45px;
+        margin: 0 10px -15px;
+        transition: 1s;
     }
     
     #clock{
@@ -1500,7 +1541,7 @@ img {
     }
 
     footer{
-        margin-top: 350px;
+        margin-top: 280px;
         text-align: center;
         color: #800;
         width: 100%;
