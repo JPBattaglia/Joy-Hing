@@ -544,10 +544,10 @@ footer{
     #logo img{
         height: 75px;
         margin-left: -260px;
-        background: lime;
+        background: #050;
         padding: 5px;
         border-radius: 50px;
-        border: 4px double red;
+        border: 3px double red;
     }
     
     #info{
@@ -812,7 +812,7 @@ footer{
 /*=======================================*/
 
 @media (max-width: 600px){
-        .navicon, #happy, #reservations h2, #reservation{
+        #happy, #reservations h2, #reservation, .delivery{
         display: none;
     }
     
@@ -839,7 +839,7 @@ footer{
     }
     
     nav{
-        display: flex;
+        display: none;
         background: black;
         height: 60px;
         margin-top: -15px;
@@ -850,9 +850,9 @@ footer{
     }
     
     .navicon {
-        width: 30px;
-        height: 25px;
-        margin: -5px 0px 0px 0px;
+        width: 40px;
+        height: 30px;
+        margin: -5px 10px 0px 0px;
         filter: drop-shadow(0px 0px 3px #fff);
     }
     
@@ -875,7 +875,7 @@ footer{
         font-family: 'Quintessential';
         text-shadow: .5px .5px 1px #fff;
         float: inline-end;
-        margin: 45px auto;
+        margin: 55px auto;
         text-align: center;
         color:#fff;
         padding: 2px 15px;
@@ -965,7 +965,7 @@ footer{
     
     #intro h1{
         font-size: 25px;
-        margin: -25px auto 0px;
+        margin: -15px auto 0px;
         max-width: 100%;
         text-shadow: -1px 1px 0px white, 1px 1px 0px white, -1px -1px 0px white, 1px -1px 0px white;
     }
@@ -992,13 +992,12 @@ footer{
     }
     
     #logo img{
-        width: 80px;
+        width: 100px;
         margin: -10px auto;
-        filter: drop-shadow(0px 0px 1px #fff);
-        border: 4px double red;
+        border: 3px double red;
         border-radius: 150px;
-        background: lime;
-        padding: 3px;
+        background: #050;
+        padding: 6px;
     }
 
     
@@ -1216,9 +1215,9 @@ footer{
     }
 
     footer{
-        padding: 20px 30px 10px;
         text-align: center;
-        color: #800; 
+        color: #800;
+        margin-bottom: -30px;
     }
     
     footer p{
@@ -1310,13 +1309,14 @@ footer{
         font-weight: bolder;
     }
     
-    #logo img{
+    #logo img{;
+        
         width: 125px;
         height: 125px;
-        background: lime;
+        background: #050;
         border-radius: 150px;
-        padding: 5px;
-        border: 6px double red;
+        padding: 8px;
+        border: 4px double red;
     }
     
     #logo p{
