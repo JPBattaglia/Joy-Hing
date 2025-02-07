@@ -1216,6 +1216,7 @@ footer{
     }
 
     footer{
+        padding: 20px 30px 10px;
         text-align: center;
         color: #800; 
     }
@@ -1242,6 +1243,7 @@ footer{
     }
     
     #menumade{
+        margin-top: 5px;
         filter: none;
     }
     
