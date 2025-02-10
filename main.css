@@ -869,6 +869,7 @@ footer{
     #action{
         display: flex;
         width: 100%;
+        border-radius: 30px;
     }
     
     #calltoaction{
@@ -918,6 +919,7 @@ footer{
     
         .glow-on-hover:before {
             opacity: 1;
+            border-radius: 30px;
         }
         
         .glow-on-hover:after {
@@ -965,7 +967,7 @@ footer{
     
     #intro h1{
         font-size: 25px;
-        margin: -15px auto 0px;
+        margin: -25px auto 0px;
         max-width: 100%;
         text-shadow: -1px 1px 0px white, 1px 1px 0px white, -1px -1px 0px white, 1px -1px 0px white;
     }
@@ -992,9 +994,9 @@ footer{
     }
     
     #logo img{
-        width: 100px;
+        width: 115px;
         margin: -10px auto;
-        border: 3px double red;
+        border: 4px double red;
         border-radius: 150px;
         background: #050;
         padding: 6px;
@@ -1259,7 +1261,7 @@ footer{
     }
 
     .chinese{
-        font-size: 32px;
+        font-size: 35px;
     }
 
     #joy {
