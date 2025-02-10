@@ -967,7 +967,7 @@ footer{
     
     #intro h1{
         font-size: 25px;
-        margin: -25px auto 0px;
+        margin: -35px auto 0px;
         max-width: 100%;
         text-shadow: -1px 1px 0px white, 1px 1px 0px white, -1px -1px 0px white, 1px -1px 0px white;
     }
@@ -1321,6 +1321,7 @@ footer{
         border: 4px double red;
     }
     
+
     #logo p{
         font-size: 14px;
         margin: 0 5px;
