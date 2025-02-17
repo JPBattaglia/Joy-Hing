@@ -479,7 +479,7 @@ img {
 
 footer{
     background: rgb(5, 70, 59);
-    padding: 40px 20px 20px;
+    padding: 25px 20px 10px;
     margin: -25px;
     width: 100%;
     border-top: 3px solid rgb(213, 0, 0);
@@ -1274,7 +1274,7 @@ footer{
     }
 
     #copywrite{
-        text-shadow: .5px 0px 0 white, -.5px 0px 0 white, .5px -.5px 0 white, .5px .5px 0 white;
+        text-shadow: .5px 0px 0 white, -.5px 0px 0 white, .5px -.5px 0 white, -.5px -.5px 0 white;
     }
 }
 
