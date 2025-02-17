@@ -289,7 +289,7 @@ p{
 
 .sidenav .closebtn {
     margin: 0px;
-    padding: 10px 45px 28px 22px;
+    padding: 10px 40px 28px 22px;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -477,6 +477,12 @@ img {
     margin-top: -30px;
 }
 
+.gallery{
+    width: 80%;
+    max-width: 1400px;
+    margin: auto;
+}
+
 footer{
     background: rgb(5, 70, 59);
     padding: 25px 20px 10px;
@@ -507,9 +513,23 @@ footer{
         height: 30px;
         margin: 0px 20px 0px 0px;
     }
+    
+    .sidenav .closebtn {
+    margin: 0px;
+    padding: 15px 45px 28px 22px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 40px;
+    text-decoration: none;
+}
 
     .sidenav a {
-        padding-top: 25px;
+        padding-top: 45px;
+    }
+    
+    .sidenav a:nth-child(2){
+        margin-top: -30px;
     }
     
     h1{
@@ -805,6 +825,24 @@ footer{
         padding: 5px 25px 10px;
         border-radius: 100px;
         font-size: 28px;
+    }
+    
+    .gallery{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .gallery img{
+        width: 200px;
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+        border: 5px double red;
+        border-radius: 10px;
     }
 }
 
@@ -1276,6 +1314,29 @@ footer{
     #copywrite{
         text-shadow: .5px 0px 0 white, -.5px 0px 0 white, .5px -.5px 0 white, -.5px -.5px 0 white;
     }
+    
+    #gallery {
+        font-size: 34px;
+    }
+    
+    .gallery{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .gallery img{
+        width: 300px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+        border: 5px double red;
+        border-radius: 10px;
+    }
 }
 
 /*=======================================*/
@@ -1295,7 +1356,7 @@ footer{
     }
     
     nav li{
-        margin: 150px 50px;
+        margin: 150px 35px;
         font-size: 35px;
     }
     
@@ -1555,6 +1616,24 @@ footer{
     footer p{
         width: 100%;
         font-weight: bolder;
+    }
+    
+    .gallery{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .gallery img{
+        width: 300px;
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+        border: 7px double #800;
+        border-radius: 10px;
     }
 }
 
