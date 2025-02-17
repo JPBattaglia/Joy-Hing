@@ -477,6 +477,11 @@ img {
     margin-top: -30px;
 }
 
+#gallery{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
 .gallery{
     width: 80%;
     max-width: 1400px;
@@ -825,6 +830,11 @@ footer{
         padding: 5px 25px 10px;
         border-radius: 100px;
         font-size: 28px;
+    }
+    
+    #gallery{
+        margin-top: 0px;
+        margin-bottom: 50px;
     }
     
     .gallery{
@@ -1317,6 +1327,8 @@ footer{
     
     #gallery {
         font-size: 34px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     
     .gallery{
@@ -1661,6 +1673,12 @@ footer{
     
     #info{
         margin: -300px auto;
+    }
+    
+    #gallery {
+        font-size: 55px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     
     footer{
