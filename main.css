@@ -261,7 +261,7 @@ p{
 }
 
 .sidenav a {
-    padding: 45px 10px;
+    margin: 45px 10px;
     font-size: 28px;
     color: beige;
     display: block;
@@ -288,8 +288,7 @@ p{
 }
 
 .sidenav .closebtn {
-    margin: 0px;
-    padding: 10px 40px 28px 22px;
+    margin: 10px 40px 28px 22px;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -530,11 +529,11 @@ footer{
 }
 
     .sidenav a {
-        padding-top: 45px;
+        margin-top: 85px;
     }
     
     .sidenav a:nth-child(2){
-        margin-top: -30px;
+        margin-top: 30px;
     }
     
     h1{
@@ -898,6 +897,11 @@ footer{
     
     .sidenav a{
         margin-left: 20px;
+        margin-top: 70px;
+    }
+    
+    .sidenav a:nth-child(2){
+        margin-top: 20px;
     }
     
     #rotate{
@@ -980,11 +984,6 @@ footer{
             100% { background-position: 0 0; }
         }
         
-    
-    
-    
-    
-    
     #intro {
         margin: 10px auto;
         height: 375px;
@@ -1260,6 +1259,7 @@ footer{
         text-align: center;
         color: #800;
         margin-bottom: -30px;
+        padding: 15px 25px;
     }
     
     footer p{
